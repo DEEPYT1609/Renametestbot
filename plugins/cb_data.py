@@ -35,7 +35,7 @@ async def doc(bot,update):
      ms = await update.message.edit("ғɪʟᴇ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ sᴛᴀʀᴛ....")
      c_time = time.time()
      try:
-     	path = await bot.download_media(message = file, progress=progress_for_pyrogram,progress_args=( "**Please wait...**",  ms, c_time   ))
+     	path = await bot.download_media(message = file, progress=progress_for_pyrogram,progress_args=( "ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ᴅᴏᴡɴʟᴀᴏᴀᴅ ғɪʟᴇ......",  ms, c_time   ))
      except Exception as e:
      	await ms.edit(e)
      	return 
