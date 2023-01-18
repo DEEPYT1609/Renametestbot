@@ -8,3 +8,5 @@ TgCrypto
 dnspython
 aiohttp
 psutil
+flask
+gunicorn
