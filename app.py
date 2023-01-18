@@ -30,7 +30,3 @@ def status():
 @app.route('/')
 def hello_world():
     return 'TGNVS'
-
-
-if __name__ == "__main__":
-    app.run()
