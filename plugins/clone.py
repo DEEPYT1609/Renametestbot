@@ -18,7 +18,7 @@ from pyrogram.types import *
 
 
 @Client.on_message(filters.command('clone') & filters.user(ADMIN))
-async def clone(bot: client, msg: message):
+async def clone(client, msg: message):
     chat = msg.chat
     text = await msg.reply("Usage:\n\n /clone token")
     cmd = msg.command
