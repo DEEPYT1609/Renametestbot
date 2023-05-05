@@ -35,4 +35,3 @@ async def clone(bot: client, msg: Message):
         await msg.reply(f"**ERROR:** `{str(e)}`\nPress /start to Start again.")
         
         Client.start()
-idle()
